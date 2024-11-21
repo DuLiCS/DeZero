@@ -10,7 +10,7 @@ class Function:
         output = Variable(y)
         return output
 
-    def forward(self):
+    def forward(self, x):
         raise NotImplementedError
 
 
